@@ -15,27 +15,33 @@ export default function AboutSection() {
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-foreground mb-6 font-inter">Professional Summary</h3>
             <p className="text-muted-foreground mb-6 leading-relaxed text-lg">
-              Enthusiastic Full Stack Developer with 1.5 years of experience in .NET Full Stack Development, specializing in C# and .NET Core. 
-              Adept at developing web applications using modern frameworks like Angular. Proficient in full SDLC and Agile methodologies, 
-              with additional project experience in Node.js, JavaScript, and Machine Learning using Python.
+                          Experienced Data Engineer with 3+ years of experience in developing enterprise-grade data pipelines, real-time workflows,
+                          and data lake architectures across financial, healthcare, and consulting domains. Proficient in Python, SQL, Spark, Kafka,
+                          dbt, Talend, Snowflake, PostgreSQL, MySQL, Oracle, and Informatica. Skilled in cloud platforms such as Azure, AWS, and
+                          Snowflake. Expertise in Agile environments using JIRA and Git, with strong knowledge of data governance, security, and
+                          compliance. Generated model-ready datasets and supported GenAI use cases through vector database prep, prompt
+                          tuning, and retrieval-augmented generation (RAG) pipelines with LLMs. Experienced in MLflow, REST APIs, Terraform,
+                          Jenkins, Git, Power BI, and Tableau. Aiming to apply technical expertise to drive transformative data solutions and serve
+                          business objectives in a forward-thinking organization. 
+
             </p>
-            <p className="text-muted-foreground mb-6 leading-relaxed text-lg">
-              Passionate about problem-solving, continuous learning, and delivering high-quality, scalable solutions. 
-              Recognized for strong ownership, adaptability, and mentorship in collaborative environments. 
-              Received the <span className="text-primary font-semibold">Ace Award</span> for outstanding performance.
-            </p>
+            {/*<p className="text-muted-foreground mb-6 leading-relaxed text-lg">*/}
+            {/*  Passionate about problem-solving, continuous learning, and delivering high-quality, scalable solutions. */}
+            {/*  Recognized for strong ownership, adaptability, and mentorship in collaborative environments. */}
+            {/*  Received the <span className="text-primary font-semibold">Ace Award</span> for outstanding performance.*/}
+            {/*</p>*/}
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
               <Card className="bg-muted/50 border-primary/20">
                 <CardContent className="p-4">
                   <h4 className="font-semibold text-foreground mb-2">Location</h4>
-                  <p className="text-muted-foreground">Dublin, Ireland</p>
+                                  <p className="text-muted-foreground">Cincinnati, OH</p>
                 </CardContent>
               </Card>
               <Card className="bg-muted/50 border-primary/20">
                 <CardContent className="p-4">
                   <h4 className="font-semibold text-foreground mb-2">Experience</h4>
-                  <p className="text-muted-foreground">1.5+ Years</p>
+                  <p className="text-muted-foreground">3+ Years</p>
                 </CardContent>
               </Card>
               <Card className="bg-muted/50 border-primary/20">
@@ -44,18 +50,18 @@ export default function AboutSection() {
                   <p className="text-muted-foreground">English, Telugu, Hindi</p>
                 </CardContent>
               </Card>
-              <Card className="bg-muted/50 border-primary/20">
-                <CardContent className="p-4">
-                  <h4 className="font-semibold text-foreground mb-2">Award</h4>
-                  <p className="text-muted-foreground">Ace Award Recipient</p>
-                </CardContent>
-              </Card>
+              {/*<Card className="bg-muted/50 border-primary/20">*/}
+              {/*  <CardContent className="p-4">*/}
+              {/*    <h4 className="font-semibold text-foreground mb-2">Award</h4>*/}
+              {/*    <p className="text-muted-foreground">Ace Award Recipient</p>*/}
+              {/*  </CardContent>*/}
+              {/*</Card>*/}
             </div>
           </div>
           
           <div className="space-y-6">
             <img 
-              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
+                          src="https://wallpapercave.com/wp/wp10581316.jpg" 
               alt="Professional developer workspace with multiple monitors" 
               className="rounded-xl shadow-lg w-full h-auto"
             />
@@ -66,23 +72,23 @@ export default function AboutSection() {
                 <ul className="space-y-2 text-muted-foreground">
                   <li className="flex items-center">
                     <i className="fas fa-check-circle text-primary mr-3"></i>
-                    Strong problem-solving and analytical skills
+                     Proven ability to lead cross-functional teams and collaborate across departments
                   </li>
                   <li className="flex items-center">
                     <i className="fas fa-check-circle text-primary mr-3"></i>
-                    Passion for learning new technologies
+                   Strong attention to detail with a focus on data accuracy and regulatory compliance
                   </li>
                   <li className="flex items-center">
                     <i className="fas fa-check-circle text-primary mr-3"></i>
-                    Excellent prioritization and task management
+                    Ability to translate complex technical concepts into actionable business insights
                   </li>
                   <li className="flex items-center">
                     <i className="fas fa-check-circle text-primary mr-3"></i>
-                    Effective communicator and team player
+                    Self-driven with a track record of delivering high-impact solutions under tight deadlines
                   </li>
                   <li className="flex items-center">
                     <i className="fas fa-check-circle text-primary mr-3"></i>
-                    Adaptability in fast-paced environments
+                    Resilient and resourceful in solving data infrastructure and integration challenges
                   </li>
                 </ul>
               </CardContent>

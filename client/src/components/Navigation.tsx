@@ -18,7 +18,7 @@ export default function Navigation() {
     { href: "#home", label: "Home" },
     { href: "#about", label: "About" },
     { href: "#skills", label: "Skills" },
-    { href: "#projects", label: "Projects" },
+    //{ href: "#projects", label: "Projects" },
     { href: "#experience", label: "Experience" },
     { href: "#education", label: "Education" },
     { href: "#contact", label: "Contact" },
@@ -38,7 +38,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="font-poppins font-bold text-xl">
-            <span className="text-primary">GP</span>
+            <span className="text-primary">RkR</span>
             <span className="text-foreground">.</span>
           </div>
           

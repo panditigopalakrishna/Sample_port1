@@ -25,7 +25,7 @@ export default function ContactSection() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    const mailtoLink = `mailto:gopalakrishnapanditi@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)}`;
+      const mailtoLink = `mailto:revanthgosula5@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)}`;
     
     window.location.href = mailtoLink;
     
@@ -42,40 +42,33 @@ export default function ContactSection() {
     });
   };
 
-  const contactInfo = [
-    {
-      icon: "fas fa-envelope",
-      label: "Email",
-      value: "gopalakrishnapanditi@gmail.com",
-      href: "mailto:gopalakrishnapanditi@gmail.com",
-      color: "text-primary",
-      bgColor: "bg-primary/10"
-    },
-    {
-      icon: "fas fa-map-marker-alt",
-      label: "Location",
-      value: "9 Parklands, Saggart, Dublin, D24 KP2D, Ireland",
-      href: null,
-      color: "text-secondary",
-      bgColor: "bg-secondary/10"
-    },
-    {
-      icon: "fab fa-linkedin",
-      label: "LinkedIn",
-      value: "Connect with me",
-      href: "https://www.linkedin.com/in/gopala-krishna-panditi-807225207",
-      color: "text-blue-400",
-      bgColor: "bg-blue-400/10"
-    },
-    {
-      icon: "fab fa-github",
-      label: "GitHub",
-      value: "View my repositories",
-      href: "https://github.com/panditigopalakrishna",
-      color: "text-purple-400",
-      bgColor: "bg-purple-400/10"
-    }
-  ];
+    const contactInfo = [
+        {
+            icon: "fas fa-envelope",
+            label: "Email",
+            value: "revanthgosula5@gmail.com",
+            href: "mailto:revanthgosula5@gmail.com",
+            color: "text-primary",
+            bgColor: "bg-primary/10"
+        },
+        {
+            icon: "fas fa-map-marker-alt",
+            label: "Location",
+            value: "Cincinnati, OH, USA",
+            href: null,
+            color: "text-secondary",
+            bgColor: "bg-secondary/10"
+        },
+        {
+            icon: "fab fa-linkedin",
+            label: "LinkedIn",
+            value: "Connect with me",
+            href: "https://www.linkedin.com/in/gosularevanth/",
+            color: "text-blue-400",
+            bgColor: "bg-blue-400/10"
+        }
+    ];
+
 
   const languages = [
     { name: "English", level: "Fluent", color: "text-primary", bgColor: "bg-primary/10" },

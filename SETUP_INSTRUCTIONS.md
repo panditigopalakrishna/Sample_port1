@@ -107,7 +107,7 @@ portfolio-website/
 ├── shared/
 │   └── schema.ts
 ├── assets/
-│   └── (place your resume PDF here as 'Gopalakrishna_Panditi_Resume.pdf')
+│   └── (place your resume PDF here as 'Revanth_Resume_DataEng.pdf')
 ├── .gitignore
 ├── README.md
 ├── SETUP_INSTRUCTIONS.md (this file)
@@ -120,34 +120,22 @@ portfolio-website/
 └── vite.config.ts (existing)
 ```
 
-## 🛠️ Local Development Setup
+# Setup Instructions (Client-Only)
 
-### 1. Clone Your Repository Locally
+This project is now frontend-only. All server-side setup steps have been removed.
 
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-cd YOUR_REPOSITORY_NAME
-```
+## Running the Client
 
-### 2. Install Dependencies
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-```bash
-npm install
-```
-
-### 3. Add Your Resume
-
-1. Create an `assets` folder in the root directory
-2. Place your resume PDF file in the `assets` folder
-3. Name it exactly: `Gopalakrishna_Panditi_Resume.pdf`
-
-### 4. Start Development Server
-
-```bash
-npm run dev
-```
-
-The website will be available at `http://localhost:5000`
+The app will be available at the local address shown in your terminal.
 
 ## 🎨 Customization Options
 

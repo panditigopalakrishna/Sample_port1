@@ -37,7 +37,7 @@ export default function Portfolio() {
         <HeroSection />
         <AboutSection />
         <SkillsSection />
-        <ProjectsSection />
+        {/*<ProjectsSection />*/}
         <ExperienceSection />
         <EducationSection />
         <ContactSection />
@@ -48,29 +48,29 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h3 className="text-2xl font-bold mb-4 font-poppins">
-              <span className="text-primary">Gopalakrishna</span> Panditi
+              <span className="text-primary">RevanthKumar</span> Reddy
             </h3>
-            <p className="text-muted-foreground mb-6">Full Stack Developer & Data Analytics Expert</p>
+            <p className="text-muted-foreground mb-6">Data Engineer & Data Analytics Expert</p>
             
             <div className="flex justify-center space-x-6 mb-8">
               <a 
-                href="https://www.linkedin.com/in/gopala-krishna-panditi-807225207" 
+                              href="https://www.linkedin.com/in/gosularevanth/" 
                 className="text-muted-foreground hover:text-primary text-2xl transition-colors duration-300 transform hover:scale-110"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="fab fa-linkedin"></i>
               </a>
+              {/*<a */}
+              {/*  href="https://github.com/panditigopalakrishna" */}
+              {/*  className="text-muted-foreground hover:text-primary text-2xl transition-colors duration-300 transform hover:scale-110"*/}
+              {/*  target="_blank"*/}
+              {/*  rel="noopener noreferrer"*/}
+              {/*>*/}
+              {/*  <i className="fab fa-github"></i>*/}
+              {/*</a>*/}
               <a 
-                href="https://github.com/panditigopalakrishna" 
-                className="text-muted-foreground hover:text-primary text-2xl transition-colors duration-300 transform hover:scale-110"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fab fa-github"></i>
-              </a>
-              <a 
-                href="mailto:gopalakrishnapanditi@gmail.com" 
+                              href="mailto:revanthgosula5@gmail.com" 
                 className="text-muted-foreground hover:text-primary text-2xl transition-colors duration-300 transform hover:scale-110"
               >
                 <i className="fas fa-envelope"></i>
@@ -78,7 +78,7 @@ export default function Portfolio() {
             </div>
             
             <div className="border-t border-border pt-8">
-              <p className="text-muted-foreground">&copy; 2024 Gopalakrishna Panditi. All rights reserved.</p>
+              <p className="text-muted-foreground">&copy; 2024 Revanthkumar Reddy. All rights reserved.</p>
             </div>
           </div>
         </div>
