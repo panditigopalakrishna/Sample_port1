@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import profilpic from "@/assets/Profile_pic.png"
+import resume from "@/assets/Revanth_Resume_DataEng.pdf"
 export default function HeroSection() {
   const scrollToContact = () => {
     const element = document.querySelector("#contact");
@@ -11,7 +12,7 @@ export default function HeroSection() {
   const downloadResume = () => {
     //window.open('/src/assets/Revanth_Resume_DataEng.pdf', '_blank');
     const link=document.createElement('a');
-    link.href='/src/assets/Revanth_Resume_DataEng.pdf';
+    link.href=resume;
     link.download='Revanth_Resume_DataEng.pdf';
     document.body.appendChild(link);
     link.click();
