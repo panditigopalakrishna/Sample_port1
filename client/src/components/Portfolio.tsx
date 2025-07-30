@@ -48,13 +48,13 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h3 className="text-2xl font-bold mb-4 font-poppins">
-              <span className="text-primary">RevanthKumar</span> Reddy
+              <span className="text-primary">Sri</span> Maddela
             </h3>
-            <p className="text-muted-foreground mb-6">Data Engineer & Data Analytics Expert</p>
+                      <p className="text-muted-foreground mb-6">Supply Chain Analyst | SAP & ERP Optimization Specialist</p>
             
             <div className="flex justify-center space-x-6 mb-8">
               <a 
-                              href="https://www.linkedin.com/in/gosularevanth/" 
+                              href="https://www.linkedin.com/in/sri-maddela-4e7/" 
                 className="text-muted-foreground hover:text-primary text-2xl transition-colors duration-300 transform hover:scale-110"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -70,7 +70,7 @@ export default function Portfolio() {
               {/*  <i className="fab fa-github"></i>*/}
               {/*</a>*/}
               <a 
-                              href="mailto:revanthgosula5@gmail.com" 
+                              href="mailto:srimaddela1@gmail.com" 
                 className="text-muted-foreground hover:text-primary text-2xl transition-colors duration-300 transform hover:scale-110"
               >
                 <i className="fas fa-envelope"></i>
@@ -78,7 +78,7 @@ export default function Portfolio() {
             </div>
             
             <div className="border-t border-border pt-8">
-              <p className="text-muted-foreground">&copy; 2024 Revanthkumar Reddy. All rights reserved.</p>
+              <p className="text-muted-foreground">&copy; 2024 Sri Maddela. All rights reserved.</p>
             </div>
           </div>
         </div>

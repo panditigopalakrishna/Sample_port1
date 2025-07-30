@@ -1,4 +1,4 @@
-#RevanthKumar Reedy - Portfolio Website
+#Sri Maddela - Portfolio Website
 
 A modern, responsive portfolio website showcasing my full-stack development experience with a tech-themed design and blue-greenish color palette.
 
@@ -43,11 +43,7 @@ portfolio/
 │   │   ├── index.css
 │   │   └── main.tsx
 │   └── index.html
-├── server/
-│   ├── index.ts
-│   ├── routes.ts
-│   ├── storage.ts
-│   └── vite.ts
+
 ├── shared/
 │   └── schema.ts
 ├── assets/
@@ -92,9 +88,9 @@ npm run build
 
 ## 📧 Contact
 
-- **Email**: revanthgosula5@gmail.com
-- **LinkedIn**: [Revathkumar Reddy](https://www.linkedin.com/in/gosularevanth/)
-- **Location**: Cincinnati, OH
+- **Email**: srimaddela1@gmail.com|
+- **LinkedIn**: [Revathkumar Reddy](https://www.linkedin.com/in/sri-maddela-4e7/)
+- **Location**: Dallas, Tx
 
 ## Project Type
 

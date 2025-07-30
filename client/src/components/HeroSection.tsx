@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import profilpic from "@/assets/Profile_pic.png"
-import resume from "@/assets/Revanth_Resume_DataEng.pdf"
+import profilpic from "@/assets/profile-pic2.png"
+import resume from "@/assets/SCM_Resume_Subha.pdf"
 export default function HeroSection() {
   const scrollToContact = () => {
     const element = document.querySelector("#contact");
@@ -10,10 +10,10 @@ export default function HeroSection() {
   };
 
   const downloadResume = () => {
-    //window.open('/src/assets/Revanth_Resume_DataEng.pdf', '_blank');
+    //window.open('/src/assets/SCM_Resume_Subha.pdf', '_blank');
     const link=document.createElement('a');
     link.href=resume;
-    link.download='Revanth_Resume_DataEng.pdf';
+      link.download ='SCM_Resume_Subha.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -33,26 +33,24 @@ export default function HeroSection() {
           {/* Profile photo placeholder */}
           <img 
             src={profilpic} 
-            alt="Revathkumar Reddy - Professional Profile" 
+            alt="Sri Maddela- Professional Profile" 
             className="w-32 h-32 rounded-full mx-auto border-4 border-primary/30 shadow-2xl animate-pulse-slow tech-glow object-cover"
           />
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 animate-fade-in font-inter">
-          <span className="text-primary">Revanthkumar</span> Reddy
+          <span className="text-primary">Sri</span> Maddela
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-slide-up font-light" style={{ animationDelay: '0.2s' }}>
-          Data Engineer & Data Analytics Expert
+                 <b> Supply Chain Analyst | SAP & ERP Optimization Specialist</b>
         </p>
         
         <p className="text-lg text-muted-foreground mb-12 max-w-3xl mx-auto animate-slide-up leading-relaxed" style={{ animationDelay: '0.4s' }}>
-                  Experienced Data Engineer with 3+ years building enterprise-grade data pipelines, real-time workflows,
-                  and data lake architectures across finance, healthcare, and consulting domains. Proficient in Python, SQL, Spark, Kafka, dbt, Talend, and modern cloud platforms (AWS, Azure, Snowflake).
-                  Skilled in PostgreSQL, MySQL, Oracle, Informatica, and BI tools (Power BI, Tableau).
-                  Strong background in data governance, compliance, and Agile (JIRA, Git).
-                  Delivered GenAI-ready datasets and built RAG pipelines using LLMs, vector DBs, MLflow, and REST APIs.
-                  Familiar with Terraform, Jenkins. Seeking to drive impactful data solutions in a forward-thinking organization.
+                  Supply Chain Professional with 2.7+ years experience in procurement, logistics coordination, inventory control, and vendor management.
+                  Skilled in demand forecasting, strategic inventory planning, and improving on-time delivery.
+                  Proficient in ERP systems (SAP, Oracle), Excel, Power BI, and Tableau for data-driven decision-making.
+                  Strong communicator with a track record of driving cost reduction and supply chain efficiency through continuous improvement.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-up" style={{ animationDelay: '0.6s' }}>
@@ -73,7 +71,7 @@ export default function HeroSection() {
 
               <div className="flex justify-center space-x-6 mt-12 animate-slide-up" style={{ animationDelay: '0.8s', marginBottom: "3rem"}}>
           <a 
-                      href="https://www.linkedin.com/in/gosularevanth/" 
+                      href="https://www.linkedin.com/in/sri-maddela-4e7/" 
             className="text-muted-foreground hover:text-primary text-2xl transition-colors duration-300 transform hover:scale-110"
             target="_blank"
             rel="noopener noreferrer"
@@ -89,7 +87,7 @@ export default function HeroSection() {
           {/*  <i className="fab fa-github"></i>*/}
           {/*</a>*/}
           <a 
-                      href="mailto:revanthgosula5@gmail.com" 
+                      href="mailto:srimaddela1@gmail.com" 
             className="text-muted-foreground hover:text-primary text-2xl transition-colors duration-300 transform hover:scale-110"
           >
             <i className="fas fa-envelope"></i>

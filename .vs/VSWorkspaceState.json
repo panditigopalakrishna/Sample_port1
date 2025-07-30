@@ -1,16 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets",
     "\\client",
     "\\client\\src",
     "\\client\\src\\assets",
     "\\client\\src\\components",
     "\\client\\src\\hooks",
     "\\client\\src\\lib",
-    "\\client\\src\\pages",
-    "\\server"
+    "\\client\\src\\pages"
   ],
-  "SelectedNode": "\\client\\src\\components\\Navigation.tsx",
+  "SelectedNode": "\\client\\src\\components\\HeroSection.tsx",
   "PreviewInSolutionExplorer": false
 }

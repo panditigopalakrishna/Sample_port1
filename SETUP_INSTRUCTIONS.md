@@ -99,15 +99,11 @@ portfolio-website/
 │   │   ├── index.css
 │   │   └── main.tsx
 │   └── index.html
-├── server/
-│   ├── index.ts
-│   ├── routes.ts
-│   ├── storage.ts
-│   └── vite.ts (existing)
+├
 ├── shared/
 │   └── schema.ts
 ├── assets/
-│   └── (place your resume PDF here as 'Revanth_Resume_DataEng.pdf')
+│   └── (place your resume PDF here as 'SCM_Resume_Subha.pdf')
 ├── .gitignore
 ├── README.md
 ├── SETUP_INSTRUCTIONS.md (this file)

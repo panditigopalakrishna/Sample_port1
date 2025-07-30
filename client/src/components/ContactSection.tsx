@@ -25,7 +25,7 @@ export default function ContactSection() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-      const mailtoLink = `mailto:revanthgosula5@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)}`;
+      const mailtoLink = `mailto:srimaddela1@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)}`;
     
     window.location.href = mailtoLink;
     
@@ -46,15 +46,15 @@ export default function ContactSection() {
         {
             icon: "fas fa-envelope",
             label: "Email",
-            value: "revanthgosula5@gmail.com",
-            href: "mailto:revanthgosula5@gmail.com",
+            value: "srimaddela1@gmail.com",
+            href: "mailto:srimaddela1@gmail.com",
             color: "text-primary",
             bgColor: "bg-primary/10"
         },
         {
             icon: "fas fa-map-marker-alt",
             label: "Location",
-            value: "Cincinnati, OH, USA",
+            value: "Dallas, Tx, USA",
             href: null,
             color: "text-secondary",
             bgColor: "bg-secondary/10"
@@ -63,7 +63,7 @@ export default function ContactSection() {
             icon: "fab fa-linkedin",
             label: "LinkedIn",
             value: "Connect with me",
-            href: "https://www.linkedin.com/in/gosularevanth/",
+            href: "https://www.linkedin.com/in/sri-maddela-4e7/",
             color: "text-blue-400",
             bgColor: "bg-blue-400/10"
         }
@@ -85,8 +85,8 @@ export default function ContactSection() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto mb-4"></div>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Ready to collaborate on your next project? I'm always open to discussing new opportunities 
-            and innovative solutions. Let's build something amazing together!
+                      I&#39;m always open to collaborating on data-driven, efficiency-focused solutions.
+                      Whether it&#39;s streamlining procurement, enhancing inventory accuracy, or improving operational KPIs &mdash; let&#39;s build smarter systems together!
           </p>
         </div>
         

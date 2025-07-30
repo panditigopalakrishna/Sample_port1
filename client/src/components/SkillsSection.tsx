@@ -46,76 +46,48 @@ function SkillBar({ skill, percentage, color = "primary" }: SkillBarProps) {
 
 export default function SkillsSection() {
     const skills = {
-        programming: [
-            { name: "Python", level: 90 },
-            { name: "SQL/T-SQL", level: 92 },
-            { name: "R", level: 70 },
+        erpSystems: [
+            { name: "SAP MM", level: 90 },
+            { name: "SAP PP", level: 88 },
+            { name: "SAP Fiori", level: 85 },
+            { name: "Oracle ERP", level: 80 },
+            { name: "NetSuite", level: 75 },
+            { name: "SAP S/4HANA", level: 78 },
+            { name: "SAP ECC", level: 75 },
+            { name: "SAP BI", level: 70 },
         ],
-        bigData: [
-            { name: "Apache Spark", level: 90 },
-            { name: "Kafka", level: 85 },
-            { name: "Hadoop", level: 75 },
-            { name: "Databricks", level: 80 },
+        supplyChain: [
+            { name: "Inventory Management", level: 90 },
+            { name: "Procurement Lifecycle", level: 88 },
+            { name: "Demand Forecasting", level: 85 },
+            { name: "Supply Planning", level: 85 },
+            { name: "Logistics Coordination", level: 80 },
+            { name: "Vendor Management", level: 80 },
+            { name: "Cost Reduction Initiatives", level: 78 },
+            { name: "KPI Tracking", level: 80 },
+            { name: "Root Cause Analysis", level: 85 },
+            { name: "Agile & Lean Supply Chain", level: 75 },
         ],
-        etl: [
-            { name: "Talend", level: 85 },
-            { name: "Informatica", level: 88 },
-            { name: "Apache NiFi", level: 75 },
-            { name: "Azure Data Factory", level: 90 },
-            { name: "AWS Glue", level: 85 },
-            { name: "dbt", level: 80 },
-            { name: "Fivetran", level: 70 },
-            { name: "Airbyte", level: 70 },
-        ],
-        cloud: [
-            { name: "AWS", level: 85 },
-            { name: "Azure", level: 90 },
-            { name: "GCP", level: 75 },
-        ],
-        database: [
-            { name: "Snowflake", level: 90 },
-            { name: "PostgreSQL", level: 85 },
-            { name: "MySQL", level: 80 },
-            { name: "Oracle", level: 80 },
-            { name: "SQL Server", level: 85 },
-        ],
-        mlAi: [
-            { name: "scikit-learn", level: 80 },
-            { name: "TensorFlow", level: 75 },
-            { name: "MLflow", level: 80 },
-            { name: "LangChain", level: 70 },
-            { name: "RAG Pipelines", level: 80 },
-            { name: "OpenAI API", level: 80 },
-            { name: "Hugging Face Transformers", level: 75 },
-        ],
-        devOps: [
-            { name: "Airflow", level: 85 },
-            { name: "Jenkins", level: 80 },
-            { name: "Terraform", level: 75 },
-            { name: "Docker", level: 80 },
-            { name: "Kubernetes", level: 70 },
-        ],
-        tools: [
-            { name: "Git/GitHub/Bitbucket", level: 90 },
-            { name: "REST APIs", level: 85 },
-            { name: "JIRA", level: 88 },
-            { name: "Agile/Scrum", level: 90 },
-            { name: "SDLC", level: 85 },
-        ],
-        visualization: [
+        analytics: [
             { name: "Power BI", level: 85 },
-            { name: "Tableau", level: 85 },
-            { name: "Looker", level: 75 },
+            { name: "Tableau", level: 80 },
+            { name: "SQL", level: 85 },
+            { name: "Advanced Excel", level: 90 }, // Includes Pivot Tables, VLOOKUP, Macros
         ],
-        security: [
-            { name: "HIPAA", level: 80 },
-            { name: "GDPR", level: 80 },
-            { name: "Data Masking", level: 75 },
-            { name: "Encryption", level: 75 },
-            { name: "IAM", level: 70 },
+        documentation: [
+            { name: "SOP Documentation", level: 85 },
+            { name: "Business Process Mapping", level: 80 },
+            { name: "RFQ Management", level: 75 },
+            { name: "Cross-Functional Collaboration", level: 88 },
+            { name: "Continuous Improvement", level: 85 },
         ],
-    }
-;
+        platformsTools: [
+            { name: "WMS", level: 80 },
+            { name: "TMS", level: 78 },
+            { name: "SAP Query / Custom Reports", level: 75 },
+        ]
+    };
+
   //const certifications = [
   //  {
   //    name: "HTML Certification",
@@ -148,156 +120,82 @@ export default function SkillsSection() {
         </div>
         
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                  {/* Programming */}
-                  <Card className="bg-card border-primary/20 card-hover">
+                  {/* ERP Systems */}
+                  <Card className="bg-card border-blue-500/20 card-hover">
                       <CardContent className="p-6">
                           <div className="flex items-center mb-4">
-                              <i className="fas fa-code text-primary text-2xl mr-3"></i>
-                              <h3 className="text-xl font-semibold text-foreground font-inter">Programming</h3>
+                              <i className="fas fa-network-wired text-blue-400 text-2xl mr-3"></i>
+                              <h3 className="text-xl font-semibold text-foreground font-inter">ERP Systems</h3>
                           </div>
                           <div className="space-y-4">
-                              {skills.programming.map((skill) => (
+                              {skills.erpSystems.map((skill) => (
                                   <SkillBar key={skill.name} skill={skill.name} percentage={skill.level} />
                               ))}
                           </div>
                       </CardContent>
                   </Card>
 
-                  {/* Big Data */}
-                  <Card className="bg-card border-yellow-500/20 card-hover">
-                      <CardContent className="p-6">
-                          <div className="flex items-center mb-4">
-                              <i className="fas fa-layer-group text-yellow-400 text-2xl mr-3"></i>
-                              <h3 className="text-xl font-semibold text-foreground font-inter">Big Data</h3>
-                          </div>
-                          <div className="space-y-4">
-                              {skills.bigData.map((skill) => (
-                                  <SkillBar key={skill.name} skill={skill.name} percentage={skill.level} />
-                              ))}
-                          </div>
-                      </CardContent>
-                  </Card>
-
-                  {/* ETL / Integration */}
+                  {/* Supply Chain */}
                   <Card className="bg-card border-green-500/20 card-hover">
                       <CardContent className="p-6">
                           <div className="flex items-center mb-4">
-                              <i className="fas fa-random text-green-400 text-2xl mr-3"></i>
-                              <h3 className="text-xl font-semibold text-foreground font-inter">ETL / Integration</h3>
+                              <i className="fas fa-shipping-fast text-green-400 text-2xl mr-3"></i>
+                              <h3 className="text-xl font-semibold text-foreground font-inter">Supply Chain</h3>
                           </div>
                           <div className="space-y-4">
-                              {skills.etl.map((skill) => (
+                              {skills.supplyChain.map((skill) => (
                                   <SkillBar key={skill.name} skill={skill.name} percentage={skill.level} />
                               ))}
                           </div>
                       </CardContent>
                   </Card>
 
-                  {/* Cloud */}
-                  <Card className="bg-card border-sky-500/20 card-hover">
+                  {/* Analytics & Visualization */}
+                  <Card className="bg-card border-yellow-500/20 card-hover">
                       <CardContent className="p-6">
                           <div className="flex items-center mb-4">
-                              <i className="fas fa-cloud text-sky-400 text-2xl mr-3"></i>
-                              <h3 className="text-xl font-semibold text-foreground font-inter">Cloud Platforms</h3>
+                              <i className="fas fa-chart-line text-yellow-400 text-2xl mr-3"></i>
+                              <h3 className="text-xl font-semibold text-foreground font-inter">Analytics & Visualization</h3>
                           </div>
                           <div className="space-y-4">
-                              {skills.cloud.map((skill) => (
+                              {skills.analytics.map((skill) => (
                                   <SkillBar key={skill.name} skill={skill.name} percentage={skill.level} />
                               ))}
                           </div>
                       </CardContent>
                   </Card>
 
-                  {/* Databases */}
+                  {/* Documentation & Processes */}
                   <Card className="bg-card border-purple-500/20 card-hover">
                       <CardContent className="p-6">
                           <div className="flex items-center mb-4">
-                              <i className="fas fa-database text-purple-400 text-2xl mr-3"></i>
-                              <h3 className="text-xl font-semibold text-foreground font-inter">Databases</h3>
+                              <i className="fas fa-file-alt text-purple-400 text-2xl mr-3"></i>
+                              <h3 className="text-xl font-semibold text-foreground font-inter">Documentation & Processes</h3>
                           </div>
                           <div className="space-y-4">
-                              {skills.database.map((skill) => (
+                              {skills.documentation.map((skill) => (
                                   <SkillBar key={skill.name} skill={skill.name} percentage={skill.level} />
                               ))}
                           </div>
                       </CardContent>
                   </Card>
 
-                  {/* ML & AI */}
+                  {/* Platforms & Tools */}
                   <Card className="bg-card border-pink-500/20 card-hover">
                       <CardContent className="p-6">
                           <div className="flex items-center mb-4">
-                              <i className="fas fa-brain text-pink-400 text-2xl mr-3"></i>
-                              <h3 className="text-xl font-semibold text-foreground font-inter">ML & AI</h3>
+                              <i className="fas fa-toolbox text-pink-400 text-2xl mr-3"></i>
+                              <h3 className="text-xl font-semibold text-foreground font-inter">Platforms & Tools</h3>
                           </div>
                           <div className="space-y-4">
-                              {skills.mlAi.map((skill) => (
-                                  <SkillBar key={skill.name} skill={skill.name} percentage={skill.level} />
-                              ))}
-                          </div>
-                      </CardContent>
-                  </Card>
-
-                  {/* DevOps */}
-                  <Card className="bg-card border-orange-500/20 card-hover">
-                      <CardContent className="p-6">
-                          <div className="flex items-center mb-4">
-                              <i className="fas fa-cogs text-orange-400 text-2xl mr-3"></i>
-                              <h3 className="text-xl font-semibold text-foreground font-inter">DevOps</h3>
-                          </div>
-                          <div className="space-y-4">
-                              {skills.devOps.map((skill) => (
-                                  <SkillBar key={skill.name} skill={skill.name} percentage={skill.level} />
-                              ))}
-                          </div>
-                      </CardContent>
-                  </Card>
-
-                  {/* Tools & Methods */}
-                  <Card className="bg-card border-indigo-500/20 card-hover">
-                      <CardContent className="p-6">
-                          <div className="flex items-center mb-4">
-                              <i className="fas fa-wrench text-indigo-400 text-2xl mr-3"></i>
-                              <h3 className="text-xl font-semibold text-foreground font-inter">Tools & Methods</h3>
-                          </div>
-                          <div className="space-y-4">
-                              {skills.tools.map((skill) => (
-                                  <SkillBar key={skill.name} skill={skill.name} percentage={skill.level} />
-                              ))}
-                          </div>
-                      </CardContent>
-                  </Card>
-
-                  {/* Visualization */}
-                  <Card className="bg-card border-red-400/20 card-hover">
-                      <CardContent className="p-6">
-                          <div className="flex items-center mb-4">
-                              <i className="fas fa-chart-bar text-red-400 text-2xl mr-3"></i>
-                              <h3 className="text-xl font-semibold text-foreground font-inter">Visualization</h3>
-                          </div>
-                          <div className="space-y-4">
-                              {skills.visualization.map((skill) => (
-                                  <SkillBar key={skill.name} skill={skill.name} percentage={skill.level} />
-                              ))}
-                          </div>
-                      </CardContent>
-                  </Card>
-
-                  {/* Security & Compliance */}
-                  <Card className="bg-card border-lime-500/20 card-hover">
-                      <CardContent className="p-6">
-                          <div className="flex items-center mb-4">
-                              <i className="fas fa-shield-alt text-lime-400 text-2xl mr-3"></i>
-                              <h3 className="text-xl font-semibold text-foreground font-inter">Security & Compliance</h3>
-                          </div>
-                          <div className="space-y-4">
-                              {skills.security.map((skill) => (
+                              {skills.platformsTools.map((skill) => (
                                   <SkillBar key={skill.name} skill={skill.name} percentage={skill.level} />
                               ))}
                           </div>
                       </CardContent>
                   </Card>
               </div>
+
 
 
         {/* Certifications */}

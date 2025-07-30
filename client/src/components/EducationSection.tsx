@@ -4,22 +4,23 @@ import { styleText } from "util";
 export default function EducationSection() {
     const education = [
         {
-            degree: "Master of Science in Information Technology",
-            institution: "University of Cincinnati, Cincinnati, OH, USA",
-            year: "Present",
+            degree: "Master's Degree in Information Technology and Management",
+            institution: "The University of Texas at Dallas, USA",
+            year: "2023 \u2014 2025",
             icon: "fas fa-graduation-cap",
             color: "text-primary",
             bgColor: "bg-primary/10"
         },
         {
-            degree: "Bachelor of Science in Information Technology",
-            institution: "SASTRA Deemed University, Thanjavur, India",
-            year: "Completed",
+            degree: "Bachelor of Technology in Electrical, Electronics and Communications Engineering",
+            institution: "JNTUH College of Engineering Hyderabad, India",
+            year: "Jul 2018 \u2014 May 2022",
             icon: "fas fa-university",
             color: "text-secondary",
             bgColor: "bg-secondary/10"
         }
     ];
+
 
   //const certifications = [
   //  {

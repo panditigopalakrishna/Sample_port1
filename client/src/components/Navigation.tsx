@@ -38,7 +38,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="font-poppins font-bold text-xl">
-            <span className="text-primary">RkR</span>
+            <span className="text-primary">Sm Portfolio</span>
             <span className="text-foreground">.</span>
           </div>
           
