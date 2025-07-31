@@ -88,8 +88,8 @@ npm run build
 
 ## 📧 Contact
 
-- **Email**: srimaddela1@gmail.com|
-- **LinkedIn**: [Revathkumar Reddy](https://www.linkedin.com/in/sri-maddela-4e7/)
+- **Email**: subhasri15214@gmail.com
+- **LinkedIn**: [sri maddela](https://www.linkedin.com/in/sri-maddela-4e7/)
 - **Location**: Dallas, Tx
 
 ## Project Type
