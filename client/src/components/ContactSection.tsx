@@ -25,7 +25,7 @@ export default function ContactSection() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-      const mailtoLink = `mailto:srimaddela1@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)}`;
+      const mailtoLink = `mailto:subhasri15214@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)}`;
     
     window.location.href = mailtoLink;
     
@@ -46,8 +46,8 @@ export default function ContactSection() {
         {
             icon: "fas fa-envelope",
             label: "Email",
-            value: "srimaddela1@gmail.com",
-            href: "mailto:srimaddela1@gmail.com",
+            value: "subhasri15214@gmail.com.com",
+            href: "mailto:subhasri15214@gmail.com.com",
             color: "text-primary",
             bgColor: "bg-primary/10"
         },

@@ -13,7 +13,7 @@ export default function EducationSection() {
         },
         {
             degree: "Bachelor of Technology in Electrical, Electronics and Communications Engineering",
-            institution: "JNTUH College of Engineering Hyderabad, India",
+            institution: "Vardhaman College of Engineering Hyderabad, India",
             year: "Jul 2018 \u2014 May 2022",
             icon: "fas fa-university",
             color: "text-secondary",

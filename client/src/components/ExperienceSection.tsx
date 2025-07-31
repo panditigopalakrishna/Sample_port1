@@ -3,41 +3,26 @@ import { Card, CardContent } from "@/components/ui/card";
 export default function ExperienceSection() {
     const experiences = [
         {
-            company: "Edgesoft",
-            position: "Supply Chain Intern",
-            period: "Aug 2024 \u2014 Dec 2024", 
-            location: "McKinney, TX",
-            icon: "fas fa-industry",
-            iconColor: "text-green-600",
-            bgColor: "bg-green-100",
-            achievements: [
-                "Reduced procurement cycle time by 18% through end-to-end procurement and inventory optimization using SAP MM.",
-                "Maintained 97%+ inventory accuracy by forecasting and planning over 500 SKUs with SAP PP.",
-                "Enhanced decision-making by analyzing logistics KPIs through Power BI dashboards.",
-                "Improved on-time delivery performance by 22% via root cause analysis and cross-functional coordination.",
-                "Aligned inventory planning with financial objectives by leveraging SAP integration features."
-            ],
-            isAward: false
-        },
-        {
             company: "Accenture",
-            position: "Associate Software Engineer",
-            period: "Jun 2021 \u2014 Jul 2023",
+            position: "SAP Basis Consultant",
+            period: "Jun 2022 \u2014 Present",
             location: "India",
             icon: "fas fa-briefcase",
             iconColor: "text-primary",
             bgColor: "bg-primary/10",
             achievements: [
-                "Managed logistics and inventory operations across 4 distribution centers using SAP MM for purchase requisition and goods receipt.",
-                "Reduced excess inventory by 15% using SAP PP for MRP planning and replenishment strategy.",
-                "Shortened vendor lead time by 8% through improved vendor relationship management and SAP Fiori applications.",
-                "Increased ERP data accuracy by 20% via configuration of SAP MM tables and material master settings.",
-                "Generated custom reports using SAP Query and technical modules for S&OP decision-making.",
-                "Collaborated with IT and business units to optimize SAP configurations, boosting workflow efficiency by 12%."
+                "Managed SAP ECC 6.0 and S/4 HANA systems across development, QA, and production environments ensuring 99.9% uptime.",
+                "Performed daily system monitoring, client administration, system refreshes, and transport management (STMS/SE01) within ITIL-based processes.",
+                "Troubleshot runtime errors (ST22), work process monitoring (SM50), job scheduling (SM37), and resolved lock/output issues (SM12, SP01) to maintain smooth operations.",
+                "Monitored HANA database health (DB02) and validated backups (DB14), contributing to audit compliance and disaster recovery readiness.",
+                "Executed kernel upgrades, patch management, and performance tuning (ST02, ST03N) to optimize system efficiency.",
+                "Supported SAP security activities including user administration (SU01, SUIM), role management (PFCG), and SoD analysis for GRC compliance.",
+                "Collaborated with cross-functional teams to coordinate cutover activities, post-go-live support, and incident/change management."
             ],
             isAward: false
         }
     ];
+
 
 
   return (

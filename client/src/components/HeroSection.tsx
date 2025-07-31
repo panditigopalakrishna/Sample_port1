@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import profilpic from "@/assets/profile-pic2.png"
-import resume from "@/assets/SCM_Resume_Subha.pdf"
+import resume from "@/assets/SAP Basis_Resume_Subha (1).pdf"
 export default function HeroSection() {
   const scrollToContact = () => {
     const element = document.querySelector("#contact");
@@ -13,7 +13,7 @@ export default function HeroSection() {
     //window.open('/src/assets/SCM_Resume_Subha.pdf', '_blank');
     const link=document.createElement('a');
     link.href=resume;
-      link.download ='SCM_Resume_Subha.pdf';
+      link.download ='SAP Basis_Resume_Subha.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -43,14 +43,13 @@ export default function HeroSection() {
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-slide-up font-light" style={{ animationDelay: '0.2s' }}>
-                 <b> Supply Chain Analyst | SAP & ERP Optimization Specialist</b>
+                  <b> SAP Basis Consultant | ECC 6.0 & S/4 HANA Specialist </b>
         </p>
         
         <p className="text-lg text-muted-foreground mb-12 max-w-3xl mx-auto animate-slide-up leading-relaxed" style={{ animationDelay: '0.4s' }}>
-                  Supply Chain Professional with 2.7+ years experience in procurement, logistics coordination, inventory control, and vendor management.
-                  Skilled in demand forecasting, strategic inventory planning, and improving on-time delivery.
-                  Proficient in ERP systems (SAP, Oracle), Excel, Power BI, and Tableau for data-driven decision-making.
-                  Strong communicator with a track record of driving cost reduction and supply chain efficiency through continuous improvement.
+                  SAP Basis Consultant with 1+ year of hands-on experience managing SAP ECC 6.0 and S/4 HANA systems in development, QA, and production landscapes at Accenture.
+                  Proficient in system monitoring, client administration, transport management (SE01, STMS), and root cause analysis of application-level issues using ST22, SM37, SM50, SM12, and SP01. Experienced in HANA database monitoring (DB02), backup validation (DB14), and ensuring audit-ready infrastructure.
+                  Skilled in OS-level command usage and RDBMS support to maintain performance and compliance across ITIL-governed environments.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-up" style={{ animationDelay: '0.6s' }}>
@@ -87,7 +86,7 @@ export default function HeroSection() {
           {/*  <i className="fab fa-github"></i>*/}
           {/*</a>*/}
           <a 
-                      href="mailto:srimaddela1@gmail.com" 
+                      href="mailto:subhasri15214@gmail.com" 
             className="text-muted-foreground hover:text-primary text-2xl transition-colors duration-300 transform hover:scale-110"
           >
             <i className="fas fa-envelope"></i>

@@ -70,7 +70,7 @@ export default function Portfolio() {
               {/*  <i className="fab fa-github"></i>*/}
               {/*</a>*/}
               <a 
-                              href="mailto:srimaddela1@gmail.com" 
+                              href="mailto:subhasri15214@gmail.com" 
                 className="text-muted-foreground hover:text-primary text-2xl transition-colors duration-300 transform hover:scale-110"
               >
                 <i className="fas fa-envelope"></i>
