@@ -39,7 +39,8 @@ export default function HeroSection() {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 animate-fade-in font-inter">
-          <span className="text-primary">Sri</span> Maddela
+                  <span className="text-primary">Subha Sri 
+</span> Maddela
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-slide-up font-light" style={{ animationDelay: '0.2s' }}>

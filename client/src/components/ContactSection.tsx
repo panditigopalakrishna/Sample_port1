@@ -85,8 +85,10 @@ export default function ContactSection() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto mb-4"></div>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-                      I&#39;m always open to collaborating on data-driven, efficiency-focused solutions.
-                      Whether it&#39;s streamlining procurement, enhancing inventory accuracy, or improving operational KPIs &mdash; let&#39;s build smarter systems together!
+                      I&apos;m always open to collaborating on SAP Basis and system optimization solutions.
+                      Whether it&apos;s ensuring smooth system operations, managing transports, enhancing database performance, or supporting audit compliance &#8212; let&apos;s build reliable and efficient SAP landscapes together!
+
+
           </p>
         </div>
         

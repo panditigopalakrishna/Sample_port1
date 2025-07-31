@@ -48,9 +48,10 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h3 className="text-2xl font-bold mb-4 font-poppins">
-              <span className="text-primary">Sri</span> Maddela
+                          <span className="text-primary">Subha Sri 
+</span> Maddela
             </h3>
-                      <p className="text-muted-foreground mb-6">Supply Chain Analyst | SAP & ERP Optimization Specialist</p>
+                      <p className="text-muted-foreground mb-6">SAP Basis Consultant | ECC 6.0 & S/4 HANA Specialist</p>
             
             <div className="flex justify-center space-x-6 mb-8">
               <a 
